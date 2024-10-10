@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.cabecera {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+.indice {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.datos-personales {
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+}
+.titulaciones{
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+
+}
+
+.fotografia {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+a:hover {
+    color: #FF5722;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: url('https://example.com/icon.png') no-repeat left center;
+    padding-left: 20px;
+    margin: 5px 0;
+}
+.bordered {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+img{
+    width: 35%;
+}
