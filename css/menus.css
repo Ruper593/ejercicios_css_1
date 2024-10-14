@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 .navbar {
-    background-color: #0682ff; 
+    background-color: #003366; 
     overflow: hidden;
 }
 .navbar a {
@@ -13,7 +13,7 @@ body {
     display: block;
     color: white; 
     text-align: center;
-    padding: 14px 16px; q
+    padding: 14px 16px;
     text-decoration: none;
 }
 .navbar a:hover {
@@ -32,6 +32,7 @@ body {
     padding: 14px;
     text-decoration: none;
     transition: background-color 0.3s;
+    background-color: #003366;
     border-radius: 5px;
     margin-bottom: 10px;
     width: 200px; 
