@@ -19,25 +19,34 @@ body {
 .navbar a:hover {
     background-color: #66a3ff; 
 }
-
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    display: block;
-    color: white; 
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    background-color: #003366;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    width: 200px; 
-    margin: 1%;
-}
+ 
 h1{
     text-align: center;
 }
+
+.container {
+    width: 200px; 
+    margin: 40px auto; 
+  }
+  
+  .menu2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .menu2 a {
+    text-decoration: none;
+    color: #333; 
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .menu2 a:hover {
+    background-color: #f0f0f0; 
+    color: #666; 
+  }
+  
+  .menu2 a:last-child {
+    border-bottom: none;
+  }
