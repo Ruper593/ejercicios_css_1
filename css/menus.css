@@ -7,33 +7,35 @@ body {
 .navbar {
     background-color: #003366; 
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .navbar a {
     float: left;
-    display: block;
+
     color: white; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 .navbar a:hover {
     background-color: #66a3ff; 
 }
- 
 h1{
     text-align: center;
 }
 
-.container {
-    width: 200px; 
-    margin: 40px auto; 
-  }
+  
   
   .menu2 {
     display: flex;
     flex-direction: column; 
-    align-items: center; 
-  }
+    justify-content: flex-end; 
+    width: 200px;
+    
+}
+  
   
   .menu2 a {
     text-decoration: none;
