@@ -1,115 +1,172 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-.navbar {
-    background-color: #003366; 
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-.navbar a {
-    float: left;
 
-    color: white; 
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
+
+  .menu {
+    width: 200px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    margin: 1%;
+  }
+
+
+.menu-item {
+    padding: 10px; 
+    color: #fff; 
+    transition: background-color 0.3s; 
 }
-.navbar a:hover {
-    background-color: #66a3ff; 
+
+
+.menu-item:nth-child(1) {
+    background-color: #a2c2e6; 
 }
+
+.menu-item:nth-child(2) {
+    background-color: #6fa3d8; 
+}
+
+.menu-item:nth-child(3) {
+    background-color: #3b7dd8; 
+}
+
+.menu-item:nth-child(4) {
+    background-color: #0073a8; /
+}
+
+
+.menu-item:hover {
+    background-color: #005f8a; /
+}
+
+
+
+.menu1 {
+  display: flex;
+  width: 100%; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  overflow: hidden; 
+}
+
+
+.menu1-item {
+  flex: 1; 
+  padding: 10px; 
+  color: #fff; 
+  text-align: center; 
+  transition: background-color 0.3s;
+}
+
+
+.menu1-item:nth-child(1) {
+  background-color: #e0f0ff;
+}
+
+.menu1-item:nth-child(2) {
+  background-color: #a2c2e6; 
+}
+
+.menu1-item:nth-child(3) {
+  background-color: #6fa3d8; 
+}
+
+.menu1-item:nth-child(4) {
+  background-color: #0073a8; 
+}
+
+
+.menu1-item:hover {
+  background-color: #005f8a; 
+}
+
+
+
+.menu3 {
+  display: flex; 
+  justify-content: center; 
+  border-bottom: 2px solid #4CAF50; 
+}
+
+
+.menu3-item {
+  padding: 10px 20px; 
+  color: #000000; 
+  text-align: center; 
+  transition: background-color 0.3s, color 0.3s, text-decoration 0.3s; 
+  cursor: pointer; 
+}
+
+
+.menu3-item.active {
+  background-color: #4CAF50; 
+  color: #fff; 
+}
+
+
+.menu3-item:hover {
+  background-color: #7cda7c; 
+  text-decoration: underline solid 3px #4CAF50;
+}
+
 h1{
-    text-align: center;
+  text-align: center;
 }
 
-  
-  
-  .menu2 {
-    display: flex;
-    flex-direction: column; 
-    justify-content: flex-end; 
-    width: 200px;
-    
+
+.menu2 {
+  background-color: #d0e6c2; 
+  padding: 10px; 
+  border-radius: 8px; 
+  width: 200px; 
 }
-  
-  
-  .menu2 a {
-    text-decoration: none;
-    color: #333; 
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .menu2 a:hover {
-    background-color: #f0f0f0; 
-    color: #666; 
-  }
-  
-  .menu2 a:last-child {
-    border-bottom: none;
-  }
 
+.menu2-item {
+  padding: 10px; 
+  cursor: pointer; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  transition: background-color 0.3s; 
+}
 
-  .menu3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .menu3 a {
-    color: #fff;
-    text-decoration: none;
-    margin: 20px;
-    transition: color 0.2s ease;
-  }
+.menu2-item:hover {
+  background-color: #b0d6a2; 
+}
 
-  .menu3 a::before {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    background-color: #b3f14d;
-    border-radius: 50%;
-    transition: background-color 0.2s ease;
-  }
-  
-  .menu3 a:hover::before {
-    background-color: #003366;
-  }
+.menu2-item::after {
+  content: '→'; 
+  font-size: 1.2em; 
+  opacity: 0.5; 
+  transition: opacity 0.3s; 
+}
 
+.menu2-item:hover::after {
+  opacity: 1; 
+}
 
-  .menu4 {
-    position: absolute;
-    top: 60;
-    right:0;
-    padding: 20px;
-    background-color: #f70a0a;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+.menu4 {
+  display: flex;
+  background-color: #009bc2; 
+  padding: 10px;
+  border-radius: 5px; 
+  justify-content: center; 
   
-  .menu4 a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #0011ff;
-    transition: background-color 0.2s ease;
-  }
-  
-  .menu4 a:hover {
-    background-color: #ccc;
-  }
-  
-  .menu4 a:active {
-    background-color: #aaa;
-  }
+}
+
+.menu4-item {
+  color: #333; 
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px; 
+  margin-right: 5px; 
+  transition: background-color 0.3s;
+}
+
+.menu4-item:hover {
+  background-color: #b0c4de; 
+}
+
+.menu4-item.active {
+  background-color: #87ceeb; 
+  color: white; 
+}
