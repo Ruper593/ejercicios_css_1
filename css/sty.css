@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('path/to/hero-image.jpg'); /* Cambia esto a la imagen de fondo que desees */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.subscribe-form {
+    margin-top: 20px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.activity-card {
+    text-align: center;
+}
+
+.activity-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about, .subscribe {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
